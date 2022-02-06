@@ -43,6 +43,7 @@ body {
 
 #ourServices img {
     height: 30vh;
+    width: auto;
     border-radius: 5%;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -205,4 +206,23 @@ footer {
     .priceCards img{
         width: 40vw;
     }
+  }
+
+  @media only screen and (max-width: 300px) {
+    #ourServices img {
+        height: 20vh;
+        width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 200px) {
+    .mainName{
+        font-size: 1rem;
+    }
+
+    #ourServices img {
+        height: 15vh;
+        width: auto;
+    }
+
   }
