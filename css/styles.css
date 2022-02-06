@@ -209,6 +209,11 @@ footer {
     .priceCards img{
         width: 40vw;
     }
+
+    #ourServices img {
+        height: 25vh;
+        width: auto;
+    }
   }
 
   @media only screen and (max-width: 300px) {
